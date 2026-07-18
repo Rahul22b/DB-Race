@@ -1,10 +1,10 @@
-# 🚀 DB-Race: Redis vs MongoDB Performance Benchmarking
+#  DB-Race: Redis vs MongoDB Performance Benchmarking
 
 An automated performance benchmarking tool designed to measure, compare, and analyze the read/write efficiency, throughput, and latency profiles of **Redis (In-Memory)** and **MongoDB (Disk-Based/Document)** under various stress levels and payload sizes.
 
 ---
 
-## 📊 Overview
+##  Overview
 
 In modern architecture, choosing the right database is all about balancing speed, structural complexity, and data persistence. **DB-Race** puts Redis and MongoDB side-by-side in a controlled environment to simulate real-world read/write operations. 
 
@@ -22,7 +22,7 @@ This project benchmarks operations across parameters like:
 *   **Databases:** 
     *   Redis (v7.x or cloud instance)
     *   MongoDB (v6.x / v7.x or Atlas URI)
-*   **Benchmarking Tools:** Custom script utilizing `autocannon` / `wrk` (or specify your benchmarking driver like native drivers with custom async loops).
+*   
 
 ---
 
@@ -30,7 +30,7 @@ This project benchmarks operations across parameters like:
 
 | Database System | Write Speed (Relative) | Read Speed (Relative) | Core Storage Architecture |
 | :--- | :--- | :--- | :--- |
-| **Redis** | 🚀 **3x Faster** | ⚡⚡ **25x Faster** | Pure Ephemeral RAM Lookup |
+| **Redis** |  **3x Faster** | **25x Faster** |  RAM Lookup |
 | **MongoDB** | Baseline (1x) | Baseline (1x) | WiredTiger Cache + SSD Persistence |
 
 ---
